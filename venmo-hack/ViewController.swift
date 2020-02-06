@@ -9,11 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    private var venmoUsers: 
     
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +18,7 @@ class ViewController: UIViewController {
     }
     
     @objc private func didEnterFromForeground() {
-        let username = venmoNames[0]
-        
-        Venmo.goToApp(with: "Jeremy-Mullins-2")
+        Venmo.goToApp(with: "c-reeder")
     }
 }
 

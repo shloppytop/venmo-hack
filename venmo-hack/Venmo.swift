@@ -25,9 +25,8 @@ class Venmo {
     }
     
     private static func createQuote() -> String {
-        let introQuote = "Nomad Rides gives $5 rides anywhere on IU's campus. But, we also play the most 🔥🔥🔥 beats in our cars:\n\n"
-        let songQuote = "Hey, I just 🙋‍♀️you\nAnd this is 😱\nBut here’s my 📲\nSo 📞 me, maybe?\n\nIt’s hard to 👀 right\nat you 👶\nBut here’s my 🔢\nSo ☎️ me, maybe❓\n\nYour 😍 was holdin’\nRipped 👖,\nskin was showin’\n🔥\nnight, wind was 💨\nWhere you think\nyou’re going 👶?\n\nAnd all the other\n👨‍⚖️👨‍✈️👨‍🚒👨🏾‍🔬🧛‍♂️🧙🏻‍♂️\ntry to 🏃‍♂️ me\nBut here’s\nmy 📲\nSo ☎️ me, maybe?"
-        let endQuote = "\n\nNow that you're a pennyaire, download Nomad Rides on the app store 😉"
-        return introQuote + songQuote + endQuote
+        let introQuote = "Hey Chloe, you're now a pennyaire!💸💸💸\n\nIt's time to treat yourself to the most 🥰🥳🤩 rideshare service in Champaign Urbana! Nomad Rides gives $5.50 rides anywhere on University of Illinois's campus."
+        let endQuote = "\n\nDownload Nomad Rides on the app store: http://bit.ly/nomadRides"
+        return introQuote + endQuote
     }
 }
