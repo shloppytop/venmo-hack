@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 class Venmo {
-    static func goToApp(with username: String) {
+    static func goToApp(with username: String, firstName: String) {
         let price = 0.01
-        let venmoBody = createQuote()
+        let venmoBody = createQuote(firstName: firstName)
         let urlString = "venmo://paycharge?txn=pay&recipients=\(username)&amount=\(price)&note=\(venmoBody)"
         
         if let encodedURLString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed), let url = URL(string: encodedURLString) {
@@ -24,8 +24,8 @@ class Venmo {
         }
     }
     
-    private static func createQuote() -> String {
-        let introQuote = "Hey Chloe, you're now a pennyaire!💸💸💸\n\nIt's time to treat yourself to the most 🥰🥳🤩 rideshare service in Champaign Urbana! Nomad Rides gives $5.50 rides anywhere on University of Illinois's campus."
+    private static func createQuote(firstName: String) -> String {
+        let introQuote = "Hey \(firstName), you're now a pennyaire!💸💸💸\n\nIt's time to treat yourself to the most 🥰🥳🤩 rideshare service in Champaign Urbana! Nomad Rides gives $5.50 rides anywhere on University of Illinois's campus."
         let endQuote = "\n\nDownload Nomad Rides on the app store: http://bit.ly/nomadRides"
         return introQuote + endQuote
     }
