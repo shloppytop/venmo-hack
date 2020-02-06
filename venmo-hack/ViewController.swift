@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     
     @objc private func didEnterFromForeground() {
-        Venmo.goToApp(with: "c-reeder")
+        Venmo.goToApp(with: "c-reeder", firstName: "hii")
     }
 }
 

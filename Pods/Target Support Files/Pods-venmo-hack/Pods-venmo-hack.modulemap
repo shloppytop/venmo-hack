@@ -1,0 +1,6 @@
+framework module Pods_venmo_hack {
+  umbrella header "Pods-venmo-hack-umbrella.h"
+
+  export *
+  module * { export * }
+}
