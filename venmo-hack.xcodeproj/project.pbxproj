@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		92001F2221695D8200A1B46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92001F2121695D8200A1B46E /* Assets.xcassets */; };
 		92001F2521695D8200A1B46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92001F2321695D8200A1B46E /* LaunchScreen.storyboard */; };
 		92001F2E216961CB00A1B46E /* Venmo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92001F2D216961CB00A1B46E /* Venmo.swift */; };
+		92CA57A323ECA9C300E4D678 /* VenmoMarketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA57A223ECA9C300E4D678 /* VenmoMarketing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		92001F2621695D8200A1B46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92001F2D216961CB00A1B46E /* Venmo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venmo.swift; sourceTree = "<group>"; };
 		92270F6C216AE318004A2190 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		92CA57A223ECA9C300E4D678 /* VenmoMarketing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VenmoMarketing.swift; path = "venmo-hack/VenmoMarketing.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		92E0F2B2216C187900B821E2 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				92CA57A223ECA9C300E4D678 /* VenmoMarketing.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -106,7 +109,6 @@
 				481E4CBF5E044E14C3DC82B9 /* Pods-venmo-hack.debug.xcconfig */,
 				1E88EA242846837194852DA1 /* Pods-venmo-hack.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 			files = (
 				92001F1D21695D8000A1B46E /* ViewController.swift in Sources */,
 				92001F1B21695D8000A1B46E /* AppDelegate.swift in Sources */,
+				92CA57A323ECA9C300E4D678 /* VenmoMarketing.swift in Sources */,
 				92001F2E216961CB00A1B46E /* Venmo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
