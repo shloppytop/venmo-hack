@@ -4,19 +4,23 @@ PODS:
     - Parse/Core (= 1.17.3)
   - Parse/Core (1.17.3):
     - Bolts/Tasks (~> 1.9)
+  - SCLAlertView (0.8)
 
 DEPENDENCIES:
   - Parse
+  - SCLAlertView
 
 SPEC REPOS:
   trunk:
     - Bolts
     - Parse
+    - SCLAlertView
 
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
 
-PODFILE CHECKSUM: 0fad798d1971235cbe276007c0c11b5964f778b9
+PODFILE CHECKSUM: 1646d6012397642371f4be4f68ca35406b8abb22
 
 COCOAPODS: 1.8.4

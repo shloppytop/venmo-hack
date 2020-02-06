@@ -7,5 +7,6 @@ target 'venmo-hack' do
 
   # Pods for venmo-hack
   pod 'Parse'
+  pod 'SCLAlertView'
 
 end
