@@ -15,6 +15,6 @@ jobs:
 
     - name: Install and Run Cocoapods
       run: |
-        cd /path/to/root
+        cd /master
         gem install cocoapods
         pod install
