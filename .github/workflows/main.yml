@@ -1,0 +1,20 @@
+name: Cool
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: macos-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install and Run Cocoapods
+      run: |
+        cd /master
+        gem install cocoapods
+        pod install
